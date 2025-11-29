@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        cp {
+            bindings = <&kp CLCK>;
+            key-positions = <40 37>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
