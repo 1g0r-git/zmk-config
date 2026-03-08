@@ -6,7 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-
+#include <dt-bindings/zmk/bt.h>
 / {
     behaviors {
         tp: tap_preferred {
@@ -78,6 +78,7 @@
             // |       | Prev | Next | Vol - | Vol + | Play/Pause |   |      | LFT | DWN |  UP | RGT |     |     |
             // | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |            |     |     |     |     |     |     |
             //                    |     |     |    |                  |     |     |     |
+
 
             bindings = <
 &kp TAB         &kp QUESTION    &kp UP_ARROW    &kp CARET        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp DEL       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &kp MINUS
