@@ -65,10 +65,10 @@
             //                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
 
             bindings = <
-&kp SEMICOLON   &kp COLON          &kp AT_SIGN  &kp HASH        &kp LESS_THAN         &kp GREATER_THAN         &kp DEL          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp KP_MINUS
-&kp EQUAL       &kp AMPERSAND      &kp CARET    &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &kp KP_DIVIDE
-&kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp SQT      &kp DOLLAR      &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp GRAVE        &kp BACKSLASH
-                                                &kp LEFT_SHIFT  &trans                &kp SPACE                &kp RET          &kp BSPC         &trans
+&kp SEMICOLON   &kp COLON          &kp AT_SIGN  &kp HASH        &kp LESS_THAN         &kp GREATER_THAN         &kp DEL          &kp N7        &kp N8        &kp N9        &kp KP_PLUS      &kp KP_MINUS
+&kp EQUAL       &kp AMPERSAND      &kp CARET    &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp KP_NUMBER_0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY  &kp KP_DIVIDE
+&kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp SQT      &kp DOLLAR      &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp KP_DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE        &kp BACKSLASH
+                                                &kp LEFT_SHIFT  &trans                &kp SPACE                &kp RET          &kp BSPC      &trans
             >;
         };
 
